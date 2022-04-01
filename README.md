@@ -1,1 +1,2 @@
-# .github
+# Inactive Contributor Bot
+
