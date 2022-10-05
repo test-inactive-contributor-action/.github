@@ -19,3 +19,5 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: cucumber/action-retire-inactive-contributor@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.OCTOKIT_TOKEN }}
